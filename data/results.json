@@ -1,0 +1,101 @@
+[
+    {
+        "id": "RF-Overtaking",
+        "accuracy": 0.8350882877045197,
+        "metrics": {
+            "0.0": {
+                "precision": 0.7519955959262318,
+                "recall": 0.9589329589329589,
+                "f1-score": 0.8429497068805925,
+                "support": 2849.0
+            },
+            "1.0": {
+                "precision": 0.9539370078740157,
+                "recall": 0.7289410348977136,
+                "f1-score": 0.8263983628922237,
+                "support": 3324.0
+            },
+            "accuracy": 0.8350882877045197,
+            "macro avg": {
+                "precision": 0.8529663019001237,
+                "recall": 0.8439369969153363,
+                "f1-score": 0.8346740348864081,
+                "support": 6173.0
+            },
+            "weighted avg": {
+                "precision": 0.8607357957179755,
+                "recall": 0.8350882877045197,
+                "f1-score": 0.8340372384831621,
+                "support": 6173.0
+            }
+        },
+        "hyperparameters": {
+            "bootstrap": true,
+            "ccp_alpha": 0.0,
+            "class_weight": null,
+            "criterion": "gini",
+            "max_depth": null,
+            "max_features": "sqrt",
+            "max_leaf_nodes": null,
+            "max_samples": null,
+            "min_impurity_decrease": 0.0,
+            "min_samples_leaf": 1,
+            "min_samples_split": 2,
+            "min_weight_fraction_leaf": 0.0,
+            "n_estimators": 100,
+            "n_jobs": null,
+            "oob_score": false,
+            "random_state": 42,
+            "verbose": 0,
+            "warm_start": false
+        }
+    },
+    {
+        "id": "SVM-Overtaking",
+        "accuracy": 0.8080349910902317,
+        "metrics": {
+            "0.0": {
+                "precision": 0.7519955959262318,
+                "recall": 0.9589329589329589,
+                "f1-score": 0.8429497068805925,
+                "support": 2849.0
+            },
+            "1.0": {
+                "precision": 0.9539370078740157,
+                "recall": 0.7289410348977136,
+                "f1-score": 0.8263983628922237,
+                "support": 3324.0
+            },
+            "accuracy": 0.8350882877045197,
+            "macro avg": {
+                "precision": 0.8529663019001237,
+                "recall": 0.8439369969153363,
+                "f1-score": 0.8346740348864081,
+                "support": 6173.0
+            },
+            "weighted avg": {
+                "precision": 0.8607357957179755,
+                "recall": 0.8350882877045197,
+                "f1-score": 0.8340372384831621,
+                "support": 6173.0
+            }
+        },
+        "hyperparameters": {
+            "C": 1.0,
+            "break_ties": false,
+            "cache_size": 200,
+            "class_weight": null,
+            "coef0": 0.0,
+            "decision_function_shape": "ovr",
+            "degree": 3,
+            "gamma": "scale",
+            "kernel": "rbf",
+            "max_iter": -1,
+            "probability": true,
+            "random_state": 42,
+            "shrinking": true,
+            "tol": 0.001,
+            "verbose": false
+        }
+    }
+]
