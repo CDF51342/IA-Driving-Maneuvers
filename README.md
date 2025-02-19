@@ -86,6 +86,10 @@ Máster Universitario en Ingeniería Informática (2024/25)
 
 1. **Instalación de Dependencias**  
    Es recomendable utilizar un entorno virtual (por ejemplo, `venv` o `conda`) con Python 3.7+ y las librerías `pandas`, `numpy`, `matplotlib`, `seaborn`, `scikit-learn`, entre otras. De todas formas, añadimos las líneas de código necesarias para ejecutar los notebooks en los mismos.
+   Para que los notebooks funcionen, es necesario ejecutar el fichero `requirements.txt`:
+   ```bash
+   pip install -r requirements.txt
+   ```
 2. **Estructura de Datos**  
    Verifica que los archivos Excel se encuentren en las subcarpetas Driver1, Driver2, etc., dentro de `data/`.
 3. **Ejecución de Notebooks**
