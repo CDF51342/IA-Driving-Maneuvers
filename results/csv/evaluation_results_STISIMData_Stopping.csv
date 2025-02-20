@@ -1,0 +1,25 @@
+Segmentation,Window Size,Scaler,Maneuver,Best Params,Accuracy,Precision,Recall,F1 Score
+overlapping,5,discrete,STISIMData_Stopping,"{'max_depth': 10, 'min_samples_split': 5, 'n_estimators': 50}",0.7425948380391477,0.493688317649759,0.7374014398354474,0.5914215012372834
+overlapping,5,standard,STISIMData_Stopping,"{'max_depth': 10, 'min_samples_split': 2, 'n_estimators': 50}",0.8949419712454529,0.9172380019588638,0.6420980459376071,0.7553942327082073
+overlapping,5,minmax,STISIMData_Stopping,"{'max_depth': 10, 'min_samples_split': 2, 'n_estimators': 50}",0.8949419712454529,0.9172380019588638,0.6420980459376071,0.7553942327082073
+overlapping,10,discrete,STISIMData_Stopping,"{'max_depth': 10, 'min_samples_split': 5, 'n_estimators': 100}",0.7580798890910666,0.5150060024009604,0.7353445320534796,0.6057610844394239
+overlapping,10,standard,STISIMData_Stopping,"{'max_depth': 10, 'min_samples_split': 5, 'n_estimators': 100}",0.8944632180920198,0.9086099086099086,0.6475831333561879,0.756204963971177
+overlapping,10,minmax,STISIMData_Stopping,"{'max_depth': 10, 'min_samples_split': 5, 'n_estimators': 100}",0.8944632180920198,0.9086099086099086,0.6475831333561879,0.756204963971177
+overlapping,15,discrete,STISIMData_Stopping,"{'max_depth': 10, 'min_samples_split': 2, 'n_estimators': 100}",0.7645631067961165,0.524993782641134,0.7236887212889955,0.6085327183626406
+overlapping,15,standard,STISIMData_Stopping,"{'max_depth': 10, 'min_samples_split': 10, 'n_estimators': 200}",0.8934639389736477,0.9169960474308301,0.6362701405553651,0.7512649261283141
+overlapping,15,minmax,STISIMData_Stopping,"{'max_depth': 10, 'min_samples_split': 10, 'n_estimators': 200}",0.893377253814147,0.916955017301038,0.6359273225917038,0.7510121457489879
+overlapping,20,discrete,STISIMData_Stopping,"{'max_depth': 10, 'min_samples_split': 5, 'n_estimators': 50}",0.7689706009886393,0.5328145265888456,0.7041480973603017,0.6066154754873007
+overlapping,20,standard,STISIMData_Stopping,"{'max_depth': 10, 'min_samples_split': 5, 'n_estimators': 100}",0.893938079958373,0.9243486973947895,0.6324991429550908,0.7510685935273763
+overlapping,20,minmax,STISIMData_Stopping,"{'max_depth': 10, 'min_samples_split': 5, 'n_estimators': 100}",0.893938079958373,0.9243486973947895,0.6324991429550908,0.7510685935273763
+non_overlapping,5,discrete,STISIMData_Stopping,"{'max_depth': 10, 'min_samples_split': 5, 'n_estimators': 50}",0.7458874458874459,0.49763593380614657,0.7221269296740995,0.5892232330300909
+non_overlapping,5,standard,STISIMData_Stopping,"{'max_depth': 10, 'min_samples_split': 5, 'n_estimators': 50}",0.8948051948051948,0.9166666666666666,0.6415094339622641,0.7547931382441978
+non_overlapping,5,minmax,STISIMData_Stopping,"{'max_depth': 10, 'min_samples_split': 5, 'n_estimators': 50}",0.8948051948051948,0.9166666666666666,0.6415094339622641,0.7547931382441978
+non_overlapping,10,discrete,STISIMData_Stopping,"{'max_depth': 10, 'min_samples_split': 10, 'n_estimators': 200}",0.7558441558441559,0.5105882352941177,0.7457044673539519,0.6061452513966481
+non_overlapping,10,standard,STISIMData_Stopping,"{'max_depth': 20, 'min_samples_split': 10, 'n_estimators': 50}",0.8917748917748918,0.8990384615384616,0.6426116838487973,0.749498997995992
+non_overlapping,10,minmax,STISIMData_Stopping,"{'max_depth': 20, 'min_samples_split': 10, 'n_estimators': 50}",0.8909090909090909,0.8947368421052632,0.6426116838487973,0.748
+non_overlapping,15,discrete,STISIMData_Stopping,"{'max_depth': 10, 'min_samples_split': 2, 'n_estimators': 100}",0.7506493506493507,0.5034246575342466,0.7577319587628866,0.6049382716049383
+non_overlapping,15,standard,STISIMData_Stopping,"{'max_depth': None, 'min_samples_split': 10, 'n_estimators': 200}",0.9,0.9148936170212766,0.6649484536082474,0.7701492537313432
+non_overlapping,15,minmax,STISIMData_Stopping,"{'max_depth': None, 'min_samples_split': 10, 'n_estimators': 200}",0.9,0.9148936170212766,0.6649484536082474,0.7701492537313432
+non_overlapping,20,discrete,STISIMData_Stopping,"{'max_depth': None, 'min_samples_split': 10, 'n_estimators': 50}",0.7833622183708839,0.5532994923857868,0.7465753424657534,0.6355685131195336
+non_overlapping,20,standard,STISIMData_Stopping,"{'max_depth': 10, 'min_samples_split': 5, 'n_estimators': 100}",0.9064124783362218,0.9423076923076923,0.6712328767123288,0.784
+non_overlapping,20,minmax,STISIMData_Stopping,"{'max_depth': 10, 'min_samples_split': 5, 'n_estimators': 50}",0.9116117850953206,0.9523809523809523,0.684931506849315,0.796812749003984
