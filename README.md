@@ -40,7 +40,7 @@ El proyecto se centra en:
 
 ---
 
-## 4. Estructura de los Ficheros # TODO - REVISAR ESTO
+## 4. Estructura de los Ficheros
 
 La organización del repositorio es la siguiente:
 
@@ -51,6 +51,10 @@ root/
 │       └── STISIMData_Action.xlsx   # Datos de una maniobra
 ├── results/
 │   ├── csv/      # Resultados de los mejores modelos obtenidos para cada conjunto de datos
+│   ├── img/      # Imágenes sobre el análisis propio de los mejores modelos
+│   │   ├── classification_report/   # Análisis del reporte de clasificación
+│   │   ├── confusion_matrix/        # Análisis de la matriz de confusión
+│   │   └── roc_curve/               # Análisis de la curva de ROC
 │   └── models/   # Mejores modelos según F1-score para cada maniobra
 ├── 1. Preprocesamiento y Exploración.ipynb
 ├── 2. Segmentación y Modelado.ipynb
@@ -60,10 +64,10 @@ root/
 ```
 
 - **[`data/`](./data/)**: Contiene los directorios de cada conductor (Driver1, Driver2, etc.), cada uno con 5 ficheros Excel, uno por maniobra.
-- **[`results/`](./results/)**: Contiene los resultados obtenidos de los mejores modelos para cada conjunto de datos, como los mejores modelos obtenidos para cada una de las maniobras.
+- **[`results/`](./results/)**: Contiene los resultados obtenidos de los mejores modelos para cada conjunto de datos, como los mejores modelos obtenidos para cada una de las maniobras. A su vez incluye el tipo de conjuntos de datos utilizados para cada uno de los modelos y los resultados de los modelos en formato de gráficas y métricas.
 - **[`1. Preprocesamiento y Exploración.ipynb`](./1.%20Preprocesamiento%20y%20Exploración.ipynb)**: Notebook donde se realiza la carga y limpieza de datos, junto con un análisis exploratorio básico.
 - **[`2. Segmentación y Modelado.ipynb`](./2.%20Segmentación%20y%20Modelado.ipynb)**: Notebook en el que se definen las ventanas temporales y se construyen los modelos de IA.
-- **`3. Resultados, Análisis y Conclusiones.ipynb`**: Notebook enfocado en la evaluación de los resultados, la comparación de métricas y la discusión final.
+- **[`3. Resultados, Análisis y Conclusiones.ipynb`](./3.%20Resultados,%20Análisis%20y%20Conclusiones.ipynb)**: Notebook enfocado en la evaluación de los resultados, la comparación de métricas y la discusión final.
 - **[`requirements.txt`](./requirements.txt)**: Notebook enfocado en la evaluación de los resultados, la comparación de métricas y la discusión final.
 - **[`README.md`](./README.md)** (este fichero): Explica el contexto general, los objetivos y la estructura del proyecto.
 - (De forma opcional) **Scripts o notebooks auxiliares** si es necesario realizar tareas específicas adicionales.
