@@ -1,14 +1,13 @@
-# PRÁCTICA 1
+# PROYECTO IA AUTOMOTRIZ
 
 IA en la Industria Automotriz  
 Aplicaciones Avanzadas de la IA  
-Máster Universitario en Ingeniería Informática (2024/25)
 
 ---
 
 ## 1. Introducción
 
-Este repositorio corresponde a la **Práctica 1** de la asignatura _Aplicaciones Avanzadas de la IA_ del Máster Universitario en Ingeniería Informática (curso 2024/25). El objetivo de la práctica es estudiar y reconocer maniobras de conducción mediante técnicas de IA, partiendo de datos capturados en un simulador que registra 20 muestras por segundo.
+El objetivo del proyecto es estudiar y reconocer maniobras de conducción mediante técnicas de IA, partiendo de datos capturados en un simulador que registra 20 muestras por segundo.
 
 Las maniobras a identificar incluyen adelantamientos, giros y detenciones, entre otras. Se trabaja con señales básicas del vehículo (velocidad, ángulo de volante, estado de pedales, etc.) y un marcador que indica si la maniobra está activa (1) o no (0) en cada instante.
 
@@ -30,7 +29,7 @@ El proyecto se centra en:
 
 ---
 
-## 3. Objetivos de la Práctica
+## 3. Objetivos del Proyecto
 
 1. **Preprocesar y explorar** los datos de simulación, garantizando la selección de columnas relevantes y la integridad de la información.
 2. **Segmentar** las señales en ventanas temporales, con y sin overlapping, para capturar la dinámica de cada maniobra.
